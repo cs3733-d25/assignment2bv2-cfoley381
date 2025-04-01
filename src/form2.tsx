@@ -33,7 +33,14 @@ export function Form2(){
                 No
                 <input type = "radio" name = "reader" />
                 <br /><br />
-                <label htmlFor = "comments">Comments</label>
+            <label htmlFor="role">What do you cosider yourself?</label>
+            <select name="role" id="role">
+                <option value="Reader">Reader</option>
+                <option value="Writer">Writer</option>
+                <option value="NA">NA</option>
+            </select>
+            <br />
+            <label htmlFor = "comments">Comments</label>
                 <br />
             <textarea rows={2} cols={40} id = "comments"></textarea>
             <br />

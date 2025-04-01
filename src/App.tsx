@@ -16,12 +16,13 @@ export default function App() {
     }
 
     return (
-        <>
+        <body>
+            <link rel ="stylesheet" href="App.css"/>
             <Title />
             <Intro names={newNames} />
             <Hobby1 />
             <Hobby2 />
-        </>
+        </body>
     );
 }
 
