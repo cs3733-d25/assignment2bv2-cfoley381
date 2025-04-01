@@ -1,5 +1,5 @@
-import {Table2} from '../../../mathew-hobby/src/table2.tsx'
-import {List2} from '../../../mathew-hobby/src/list2.tsx'
+import {Table2} from './table2.tsx'
+import {List2} from './list2.tsx'
 
 export function Hobby2()
 {
