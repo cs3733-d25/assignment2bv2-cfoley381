@@ -1,4 +1,4 @@
-export function Form1(){
+export function Form2(){
     return (
         <form>
             <label htmlFor= "fullname"> Enter your full name:</label>

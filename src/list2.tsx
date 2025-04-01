@@ -1,4 +1,4 @@
-import "../../../mathew-hobby/src/list.css"
+import './list.css';
 
 export function List2(){
     return(

@@ -3,8 +3,10 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
 import {Props} from "./props.ts";
+import {Title} from "./title.tsx"
 import {Intro} from './intro.tsx'
 import {Hobby1} from "./hobby1.tsx"
+import {Hobby2} from "./hobby2.tsx"
 
 export default function App() {
 
@@ -15,8 +17,10 @@ export default function App() {
 
     return (
         <>
-        <Intro names={newNames} />
+            <Title />
+            <Intro names={newNames} />
             <Hobby1 />
+            <Hobby2 />
         </>
     );
 }
