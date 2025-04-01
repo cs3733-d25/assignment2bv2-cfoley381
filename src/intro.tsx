@@ -10,7 +10,7 @@ type namesProps = {
 export function Intro(props: namesProps) {
     return (
         <body>
-            <h2>Hi there, our names are {props.names.name1} and {props.names.name2}!</h2>;
+            <h2>Hi there, our names are {props.names.name1} and {props.names.name2}!</h2>
 
             <div id="pizza">
                 <img src={pizza} width = "640" alt = "Pizza photo" />
@@ -22,7 +22,6 @@ export function Intro(props: namesProps) {
 
             <br/>
 
-            This is an AI-generated Reading image.
             <div id="books">
                 <img src={books} width = "640" alt = "Book photo" />
             </div>
@@ -30,8 +29,7 @@ export function Intro(props: namesProps) {
             <p>Hello, my name is {props.names.name1} I am a sophmore CS major. I grew up in MA, I have 3 sisters, and a dog.
                 I went on a foreign exchange program last D-term in Konstanz, Germany.</p>
 
-            <p> My favorite genre is fantasy, although enjoy a wide range of genres.
-                I got into reading in 5th grade, with the Percy Jackson series.</p>
+            <p> My favorite genre is fantasy, although enjoy a wide range of genres.</p>
         </body>
 
     )
